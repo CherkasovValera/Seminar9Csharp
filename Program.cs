@@ -73,9 +73,9 @@
 //Даны два неотрицательных числа m и n.
 //m = 2, n = 3 -> A(m,n) = 29
 // Console.Clear();
-// Console.Write("Для расчета функции Аккермана A(m,n) введите натуральное значение m: ");
+// Console.Write("Для расчета функции Аккермана A(m,n) введите натуральное значение m (не более 3): ");
 // int M = int.Parse(Console.ReadLine());
-// Console.Write("Для расчета функции Аккермана A(m,n) введите натуральное значение n: ");
+// Console.Write("Для расчета функции Аккермана A(m,n) введите натуральное значение n (не более 10): ");
 // int N = int.Parse(Console.ReadLine());
 // Console.WriteLine($"A({M},{N})-> {AkkermanFuncion(M, N)}");
 // int AkkermanFuncion(int m, int n)
