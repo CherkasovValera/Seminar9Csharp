@@ -80,11 +80,10 @@
 // Console.WriteLine($"A({M},{N})-> {AkkermanFuncion(M, N)}");
 // int AkkermanFuncion(int m, int n)
 // {
-//     int A = 0;
 //     if (m == 0) return n + 1;
 //     else if
 //     (n == 0) return AkkermanFuncion((m - 1), 1);
-//     else if (A > 100000) return A;
+//     else if (m >= 3 && n >= 11) return 0;
 //     return AkkermanFuncion(m - 1, AkkermanFuncion(m, n - 1));
 // }
 
